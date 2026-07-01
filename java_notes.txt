@@ -1,6 +1,19 @@
 local var must be initialised before use
 non static data/var cant be execute in static field
 
+syntax for class ->
+1. data member or instance var or global var 
+2. member fxn 
+
+size of stack frame =  size of all  local var in main method 
+
+3 parameters  of fxn in stack frame -->
+1. arguments
+2. local var 
+3. return type
+
+arguments are also local variable 
+
 the main purpose of jvm is to execute java bytecode line by line .
 the main purpose of jre is to provide libraries and environment .
 the jdk provides full tool kit to build and develop code .
