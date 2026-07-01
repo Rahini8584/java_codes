@@ -1,2 +1,0 @@
-local var must be initialised before use
-non static data/var cant be execute in static field

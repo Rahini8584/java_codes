@@ -1,5 +1,5 @@
 public class abc {
-        // static int a ;
+    // static int a ;
     // static byte b ;
     // static short c ;
     // static long d ;
@@ -7,9 +7,9 @@ public class abc {
     // static char f ; 
     // static double g;
     // static float h ; 
-    static int  n= 10 ;
+    // static int  n= 10 ;
     public static void main(String[] args) {
-        System.out.println("Hello, World!");
+         System.out.println("Hello, World!");
          // System.out.println(a);
         // System.out.println(b);
         // System.out.println(c);
@@ -33,8 +33,8 @@ public class abc {
         // else{
         //     System.out.println(c);
         // }
-        String result = n%2==0 ? "even": "odd" ;
-        System.out.println(result);
+        // String result = n%2==0 ? "even": "odd" ;
+        // System.out.println(result);
     }
 }
 

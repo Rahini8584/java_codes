@@ -1,0 +1,19 @@
+local var must be initialised before use
+non static data/var cant be execute in static field
+
+the main purpose of jvm is to execute java bytecode line by line .
+the main purpose of jre is to provide libraries and environment .
+the jdk provides full tool kit to build and develop code .
+the jvm component reads the compiled .class file and translates into byte code  .
+the jvm provides independence platform ,right one run anywhere and it can handle memory alloc internally .
+the jre bundle packages with jvm along with core lib class like java.lang and java.utl .
+the jdk contains jre and java compiler and debugger .
+
+the main class creates  a container .  In java , whole code must written in class and the class name must exactly match with file name .
+the public static void main method in java provide the java virtual machine(jvm) and check the syntax line to execute the program .
+system.out.println() is buitin cmd used to print text to console screen .
+
+public -- it is an access modifier that method globally visible and accessible to all jvm process.
+static -- it is a keyword that lets the jvm call  on the class itself .
+void main -- the method does not have return .
+string arg[]---it contains an array of string objs that stores cmd line arguments .
