@@ -30,3 +30,10 @@ public -- it is an access modifier that method globally visible and accessible t
 static -- it is a keyword that lets the jvm call  on the class itself .
 void main -- the method does not have return .
 string arg[]---it contains an array of string objs that stores cmd line arguments .
+
+class - Student
+fxn - studentDetails
+var - student 
+static - STUDENT
+
+eager & lazy initialised
