@@ -25,7 +25,7 @@ public class Student {
         System.out.println("Name is "+Name);
         System.out.println("Age is "+age);
 
-
+        sc.close();
 
 
 
