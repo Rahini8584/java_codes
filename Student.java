@@ -5,27 +5,40 @@ public class Student {
     // int age = 20 ;
     // double salary = 50000.0 ;
     // double final_salary;
+
    
     public static void main(String arg[]) {
 
 
-        int age ; 
-        String Name ;
+        // int age ; 
+        // String Name ;
 
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER YOUR AGE : ");
-        age=sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.println("ENTER YOUR AGE : ");
+        // age=sc.nextInt();
 
 
-        System.out.println("ENTER YOUR NAME : ");
-        Name=sc.nextLine();
+        // System.out.println("ENTER YOUR NAME : ");
+        // Name=sc.nextLine();
          
 
-        System.out.println("Name is "+Name);
-        System.out.println("Age is "+age);
+        // System.out.println("Name is "+Name);
+        // System.out.println("Age is "+age);
 
-        sc.close();
+        // sc.close();
+
+
+        
+        Scanner sc = new Scanner(System.in);
+        int arr[] = new int[5];
+        for(int i = 0 ; i<5 ; i++){
+        arr[i]=sc.nextInt();
+        }
+       for(int i = 0 ; i<5 ; i++){
+        System.out.print(arr[i]+ " ");
+       }
+       sc.close();
 
 
 
