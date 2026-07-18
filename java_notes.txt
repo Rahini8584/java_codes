@@ -17,9 +17,12 @@ arguments are also local variable
 the main purpose of jvm is to execute java bytecode line by line .
 the main purpose of jre is to provide libraries and environment .
 the jdk provides full tool kit to build and develop code .
+
 the jvm component reads the compiled .class file and translates into byte code  .
 the jvm provides independence platform ,right one run anywhere and it can handle memory alloc internally .
+
 the jre bundle packages with jvm along with core lib class like java.lang and java.utl .
+
 the jdk contains jre and java compiler and debugger .
 
 the main class creates  a container .  In java , whole code must written in class and the class name must exactly match with file name .
@@ -37,4 +40,24 @@ var - student
 static - STUDENT
 
 eager & lazy initialised
+
 java is not completely oops friendly because of primitive  data types 
+
+
+Primitive Array is object 
+features of array -> homogeneous and contiguous 
+
+gets store on  heap , length is also stored on heap as field , length is a part of JVM 
+
+cosntructor name  and class name should be same 
+constructor can take arguments 
+constructor does not have return type 
+
+IDE -> integrated development Environment 
+
+function  industry standard for reuseability 
+1. interaction 
+2. logic 
+3. return type 
+
+
