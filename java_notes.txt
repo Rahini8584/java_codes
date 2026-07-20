@@ -59,5 +59,10 @@ function  industry standard for reuseability
 1. interaction 
 2. logic 
 3. return type 
+ 
 
+default constructor - created internally and has no parameters 
 
+no parameterised constructor -> created explicitly and has no parameters 
+
+contructor is a function  called on stack 

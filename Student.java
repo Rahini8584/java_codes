@@ -10,13 +10,13 @@ public class Student {
     public static void main(String arg[]) {
 
 
-        // int age ; 
+        int age ; 
         // String Name ;
 
 
-        // Scanner sc = new Scanner(System.in);
+         Scanner sc = new Scanner(System.in);
         // System.out.println("ENTER YOUR AGE : ");
-        // age=sc.nextInt();
+        age=sc.nextInt();
 
 
         // System.out.println("ENTER YOUR NAME : ");
@@ -24,9 +24,9 @@ public class Student {
          
 
         // System.out.println("Name is "+Name);
-        // System.out.println("Age is "+age);
+        System.out.println("Age is "+age);
 
-        // sc.close();
+         sc.close();
 
 
 
