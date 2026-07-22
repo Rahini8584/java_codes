@@ -112,27 +112,29 @@
 // }
 
 
-import java .util.Scanner;
-public class pattern{
-    public static void main(String arg[]){
-        int n ;
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter a number");
-        n=sc.nextInt();
-        for(int i = 1 ; i<=n ; i++){
-            for(int j =n-1 ; j>=i ; j--){
-                System.out.print("*"+ " ");
-            }
+// import java .util.Scanner;
+// public class pattern{
+//     public static void main(String arg[]){
+//         int n ;
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("enter a number");
+//         n=sc.nextInt();
+//         for(int i = 1 ; i<=n ; i++){
+//             for(int j =n-1 ; j>=i ; j--){
+//                 System.out.print("*"+ "   ");
+//             }
             
-            for(int k = 1 ; k<=i; k++){
+//             for(int k = 1 ; k<=i; k++){
                 
-                System.out.print(k*2+ " ");
+//                 System.out.print(k*2+ " ");
                 
-            }
+//             }
             
-            System.out.println();
+//             System.out.println();
 
-        }
-        sc.close();
-    }
-}
+//         }
+//         sc.close();
+//     }
+// }
+
+
