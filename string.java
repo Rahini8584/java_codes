@@ -31,12 +31,13 @@ public class string{
 
         //     System.out.println("apple".compareTo("banana"));
 
-        String str = "rahini";
-        String reversestr = "";
-        for(int i = 0 ; i<=str.length()-1;i++){
-            reversestr = reversestr + str.charAt(str.length()-1-i);
-        }
-        System.err.println(reversestr);
+        // String str = "rahini";
+        // String reversestr = "";
+        // for(int i = 0 ; i<=str.length()-1;i++){
+        //     reversestr = reversestr + str.charAt(str.length()-1-i);
+        // }
+        // System.err.println(reversestr);
+        
 
 
         

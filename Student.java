@@ -10,13 +10,13 @@ public class Student {
     public static void main(String arg[]) {
 
 
-        int age ; 
+        // int age ; 
         // String Name ;
 
 
          Scanner sc = new Scanner(System.in);
         // System.out.println("ENTER YOUR AGE : ");
-        age=sc.nextInt();
+        // age=sc.nextInt();
 
 
         // System.out.println("ENTER YOUR NAME : ");
@@ -24,9 +24,9 @@ public class Student {
          
 
         // System.out.println("Name is "+Name);
-        System.out.println("Age is "+age);
+        // System.out.println("Age is "+age);
 
-         sc.close();
+        //  sc.close();
 
 
 
@@ -35,22 +35,23 @@ public class Student {
     //     Scanner sc = new Scanner(System.in);
     //     int n ; 
     //     n=sc.nextInt();
-    
-    //     int arr[] = new int[n];
-    //     for(int i = 0 ; i<arr.length ; i++){
-    //     arr[i]=sc.nextInt();
-    //     }
-    //    for(int i = 0 ; i<arr.length/2; i++){
-    //     int temp ;
-    //     temp=arr[arr.length-1-i];
-    //     arr[arr.length-1-i]=arr[i];
-    //     arr[i]=temp;
+    int n ;
+    n=sc.nextInt();
+        int arr[] = new int[n];
+        for(int i = 0 ; i<arr.length ; i++){
+        arr[i]=sc.nextInt();
+        }
+       for(int i = 0 ; i<arr.length/2; i++){
+        int temp ;
+        temp=arr[arr.length-1-i];
+        arr[arr.length-1-i]=arr[i];
+        arr[i]=temp;
 
-    //    }
-    //    for(int i = 0 ; i<arr.length; i++){
-    //     System.out.print(arr[i] + " ");
-    //    }
-    //    sc.close();
+      }
+       for(int i = 0 ; i<arr.length; i++){
+        System.out.print(arr[i] + " ");
+       }
+       sc.close();
 
 
 
