@@ -1,4 +1,4 @@
-import java.util.Scanner;
+// import java.util.Scanner;
 public class Student {
     // int studentid = 101 ;
     // String studentname = "rahini";
@@ -6,15 +6,28 @@ public class Student {
     // double salary = 50000.0 ;
     // double final_salary;
 
+
+    // int id ; 
+    // static String university = "Chitkara";
    
     public static void main(String arg[]) {
 
+        // Student s1 = new Student();
+        // s1.id=1;
+        // System.out.println(s1.id);
+        // Student.university="cu";
+        // System.out.println(Student.university);
+        
+        // Student s2 = new Student();
+        // s2.id=2;
+        // System.out.println(s2.id);
+        // System.out.println(Student.university);
 
         // int age ; 
         // String Name ;
 
 
-         Scanner sc = new Scanner(System.in);
+        //  Scanner sc = new Scanner(System.in);
         // System.out.println("ENTER YOUR AGE : ");
         // age=sc.nextInt();
 
@@ -35,23 +48,23 @@ public class Student {
     //     Scanner sc = new Scanner(System.in);
     //     int n ; 
     //     n=sc.nextInt();
-    int n ;
-    n=sc.nextInt();
-        int arr[] = new int[n];
-        for(int i = 0 ; i<arr.length ; i++){
-        arr[i]=sc.nextInt();
-        }
-       for(int i = 0 ; i<arr.length/2; i++){
-        int temp ;
-        temp=arr[arr.length-1-i];
-        arr[arr.length-1-i]=arr[i];
-        arr[i]=temp;
+    // int n ;
+    // n=sc.nextInt();
+    //     int arr[] = new int[n];
+    //     for(int i = 0 ; i<arr.length ; i++){
+    //     arr[i]=sc.nextInt();
+    //     }
+    //    for(int i = 0 ; i<arr.length/2; i++){
+    //     int temp ;
+    //     temp=arr[arr.length-1-i];
+    //     arr[arr.length-1-i]=arr[i];
+    //     arr[i]=temp;
 
-      }
-       for(int i = 0 ; i<arr.length; i++){
-        System.out.print(arr[i] + " ");
-       }
-       sc.close();
+    //   }
+    //    for(int i = 0 ; i<arr.length; i++){
+    //     System.out.print(arr[i] + " ");
+    //    }
+    //    sc.close();
 
 
 
@@ -92,6 +105,10 @@ public class Student {
         // emp1.final_salary= 0.1*emp1.salary + emp1.salary ;
         // System.out.println("Bonus :" +0.1*emp1.salary);
         // System.out.println("Final salary : "+emp1.final_salary);
+
+
+
+
         
     } 
 
