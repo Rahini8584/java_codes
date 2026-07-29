@@ -40,26 +40,21 @@ public class practice {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        int[] arr = new int[n];
-        int p = 0;
-        int[] prime = new int[n];
-        for(int i = 0 ; i< n ; i++){
-            arr[i]=sc.nextInt();
+
+        String str = sc.nextLine();
+      
+        String reversestr = "";
+        for(int i = 0 ; i<=str.length()-1;i++){
+            reversestr = reversestr + str.charAt(str.length()-1-i);
         }
-        for(int i = 0 ; i<n ;i++){
-            for(int j = 2; j<=Math.sqrt(arr[i]);j++){
-                if(arr[i]%j==0){
-                    break;
-                }
-                else{
-                    prime[p++]=arr[i];
-                }
-            }
+        if(str.equalsIgnoreCase(reversestr)){
+            System.out.println(str+" is a palindrome");
         }
-        for(int i = 0 ; i<p;i++){
-            System.out.print(prime[i]+" ");
+        else{
+            System.out.println(str+" is a not palindrome");
         }
+        
+       
         sc.close();
 
     }

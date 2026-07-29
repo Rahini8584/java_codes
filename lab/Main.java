@@ -59,19 +59,27 @@ public class Main {
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();
+
         int[] arr = new int[n];
+
         int[] prime = new int[n];
+
         int p = 0;
 
         for (int i = 0; i < n; i++) {
+
             arr[i] = sc.nextInt();
+
         }
 
         for (int i = 0; i < n; i++) {
+
             boolean isPrime = true;
 
             if (arr[i] < 2) {
+
                 isPrime = false;
+
             }
             else {
                 for (int j = 2; j <= Math.sqrt(arr[i]); j++) {
@@ -88,7 +96,9 @@ public class Main {
         }
 
         for (int i = 0; i < p; i++) {
+
             System.out.print(prime[i] + " ");
+            
         }
 
         sc.close();
