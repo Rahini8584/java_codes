@@ -41,7 +41,7 @@ public class practice {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
-        String str = sc.nextLine();
+        String str = sc.nextLine().trim();
       
         String reversestr = "";
         for(int i = 0 ; i<=str.length()-1;i++){
