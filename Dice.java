@@ -9,9 +9,9 @@ public class Dice {
         System.out.println("Dice faces initialized once for the whole program.");
     }
     public static void main(String[] args){
-        Dice d1 = new Dice();
-        Dice d2 = new Dice();
-        Dice d3 = new Dice();
+        // Dice d1 = new Dice();
+        // Dice d2 = new Dice();
+        // Dice d3 = new Dice();
 
         
 
