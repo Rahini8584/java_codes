@@ -5,36 +5,27 @@ public class Student {
     // int age = 20 ;
     // double salary = 50000.0 ;
     // double final_salary;
-
-
     // int id ; 
     // static String university = "Chitkara";
    
     public static void main(String arg[]) {
-
         // Student s1 = new Student();
         // s1.id=1;
         // System.out.println(s1.id);
         // Student.university="cu";
         // System.out.println(Student.university);
-        
         // Student s2 = new Student();
         // s2.id=2;
         // System.out.println(s2.id);
         // System.out.println(Student.university);
-
         // int age ; 
         // String Name ;
-
-
         //  Scanner sc = new Scanner(System.in);
         // System.out.println("ENTER YOUR AGE : ");
         // age=sc.nextInt();
 
-
         // System.out.println("ENTER YOUR NAME : ");
         // Name=sc.nextLine();
-         
 
         // System.out.println("Name is "+Name);
         // System.out.println("Age is "+age);
